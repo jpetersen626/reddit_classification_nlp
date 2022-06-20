@@ -25,7 +25,7 @@ For this project, the first part was the data collection and cleaning that was d
 
 ## Conclusions and Recommendations
 
-During the modeling process, I found the good 'ol Logistic Regression model to work the best. It performed remarkably well with these two subreddits, and my hypoethesis is that the two subreddits are so different that the model was easily able to pick up on that. There was a consistent pattern where in the r/harrypotter subreddit, the word 'harry' was both the most common word in the title and selftext and also had the most impactful coefficient. Similarly, in the r/Marvel subreddit the word 'marvel' was both the most common in title and selftext and also carried the most weight with the coefficient. See some of those coefficients below, with the most impact on the model:
+During the modeling process, I found the Logistic Regression model to work the best. It performed remarkably well with these two subreddits, and my hypoethesis is that the two subreddits are so different that the model was easily able to pick up on that. There was a consistent pattern where in the r/harrypotter subreddit, the word 'harry' was both the most common word in the title and selftext and also had the most impactful coefficient. Similarly, in the r/Marvel subreddit the word 'marvel' was both the most common in title and selftext and also carried the most weight with the coefficient. See some of those coefficients below, with the most impact on the model:
 
 |Word|Location|Coefficient|Interpretation|
 |---|---|---|---|
